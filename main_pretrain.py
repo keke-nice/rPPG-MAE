@@ -130,16 +130,16 @@ def get_args_parser():
 
 
 def main(args):
-    if args.dataname=='VIPL':
-        fileRoot = r'/scratch/project_2006419/data/VIPL_processed'
-        saveRoot = r'/scratch/project_2006419/data/VIPL_Index/VIPL_STMap_test' + str(args.fold_num) + str(args.fold_index)
+    if args.dataname=='VIPL': 
+        fileRoot = r'/scratch/project_2006419/data/VIPL_processed' # change to your own path.
+        saveRoot = r'/scratch/project_2006419/data/VIPL_Index/VIPL_STMap_test' + str(args.fold_num) + str(args.fold_index) # change to your own path.
         # saveRoot = r'/scratch/project_2006419/data/VIPL_Index/VIPL_STMap50'
     if args.dataname=='PURE':
-        fileRoot = r'/scratch/project_2006419/data/PURE_ST/PUREa'
-        saveRoot = r'/scratch/project_2006419/data/PURE_Index/PURE_STMap50'
+        fileRoot = r'/scratch/project_2006419/data/PURE_ST/PUREa' # change to your own path.
+        saveRoot = r'/scratch/project_2006419/data/PURE_Index/PURE_STMap50' # change to your own path.
     if args.dataname=='UBFC':
-        fileRoot = r'/scratch/project_2006419/data/UBFC_STMap/UBFC_ST'
-        saveRoot = r'/scratch/project_2006419/data/UBFC_Index/UBFC_STMap50'
+        fileRoot = r'/scratch/project_2006419/data/UBFC_STMap/UBFC_ST' # change to your own path.
+        saveRoot = r'/scratch/project_2006419/data/UBFC_Index/UBFC_STMap50' # change to your own path.
     
      # 图片参数
     frames_num = args.frames_num
