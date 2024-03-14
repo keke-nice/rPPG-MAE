@@ -4,6 +4,7 @@ python main_pretrain.py \
 --output_dir='./pretrain_VIPLPOSCHROM_CEP_128_8_0.8' \
 --reTrain=0 \
 --reData=1 \
+--dataname='VIPL' \
 --STMap_name1='STMap_YUV_Align_CSI_POS.png' \
 --STMap_name2='STMap_YUV_Align_CSI_CHROM.png' \
 --loss_type='CEP' \
