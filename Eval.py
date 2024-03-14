@@ -38,7 +38,6 @@ gt_ps = []
 pr_ps = []
 # Idex_files = r'/home/haolu/Data/VIPL_Index/VIPL_STMap51250_Test'
 Idex_files = r'/scratch/project_2006419/data/VIPL_Index/VIPL_STMap50_Test' #change to your index file path
-# pr_path = r'/home/haolu/Code/FG/FG2020/rPPGNetResizen256fn5fi0HR_pr.mat'
 pr_path = r'./finetune_VIPLPOSCHROM_CEP_128_8_0.8/HR_pr.mat'
 rel_path = r'/finetune_VIPLPOSCHROM_CEP_128_8_0.8/HR_rel.mat'
 pr = scio.loadmat(pr_path)['HR_pr']
