@@ -107,7 +107,7 @@ def get_args_parser():
                         help='url used to set up distributed training')
     parser.add_argument('--distributed', action='store_true')
      #数据集
-    parser.add_argument('--dataname', type=str, default="VIPL", help='log and save model name')
+    parser.add_argument('--dataname', type=str, default="VIPL", help='dataset name')
     parser.add_argument('--STMap_name1', type=str, default='STMap_RGB_Align_CSI.png')
     parser.add_argument('--STMap_name2', type=str, default='STMap_YUV_Align_CSI_CHROM.png')
     parser.add_argument('-n', '--frames_num', dest='frames_num', type=int, default=224,
