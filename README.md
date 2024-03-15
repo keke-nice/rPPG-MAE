@@ -10,7 +10,7 @@ You can download the datasets for preparation: [VIPL-HR](https://vipl.ict.ac.cn/
 
 ## Data Pre-processing
 
-You may reproduce enhanced noise-insensitive STMaps by following the methodology outlined in the paper. Alternatively, for your convenience, we have made available the processed STMaps for direct download  [here](https://github.com/keke-nice/rPPG-MAE/blob/main/Data/get_STMap.txt). 
+You may reproduce enhanced noise-insensitive STMaps by following the methodology outlined in the paper [PC-STMap](https://github.com/keke-nice/rPPG-MAE/blob/main/Data/STMap_CSI.py). Alternatively, for your convenience, we have made available the processed STMaps for direct download  [here](https://github.com/keke-nice/rPPG-MAE/blob/main/Data/get_STMap.txt). 
 
 ### Dependencies and Installation
 
