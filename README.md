@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Pretrain
 
-- You can pretrain the model by your own.
+- You may opt to pre-train the model on your own.
 
   - For VIPL-HR dataset:
 
