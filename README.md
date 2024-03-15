@@ -77,6 +77,7 @@ pip install -r requirements.txt
   ```
 
 - You can also download our pretrained model, we provide the pretrained model [here](https://github.com/keke-nice/rPPG-MAE/tree/main/pretrained_model).
+- Note that the pre-training data is four-fifths of the entire dataset and is guaranteed to be consistent with the training data used in subsequent fine-tuning stage.
 
 ## Finetune
 
