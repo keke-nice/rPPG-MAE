@@ -1,6 +1,6 @@
 # rPPG-MAE
 
-This repository contains official implementation of the paper "rPPG-MAE: Self-supervised Pretraining with Masked Autoencoders for Remote Physiological Measurements", by Xin Liu, Yuting Zhang, Zitong Yu, Hao Lu, Huanjing Yue, and Jingyu Yang, which was published on IEEE TMM 2024.  [Paper download](https://arxiv.org/abs/2306.02301)
+This repository hosts the official implementation of "rPPG-MAE: Self-supervised Pretraining with Masked Autoencoders for Remote Physiological Measurements." Authored by Xin Liu, Yuting Zhang, Zitong Yu, Hao Lu, Huanjing Yue, and Jingyu Yang, the paper has been published in IEEE Transactions on Multimedia (IEEE TMM) in 2024. [Paper download](https://arxiv.org/abs/2306.02301)
 
 ![pipelinenew1](https://github.com/keke-nice/rPPG-MAE/assets/83239988/0403c8eb-c2e6-4503-8824-74295720edc1)
 
@@ -10,7 +10,7 @@ You can download the datasets for preparation: [VIPL-HR](https://vipl.ict.ac.cn/
 
 ## Data Pre-processing
 
-You can follow the method given in the paper to generate enhanced noise insensitive STMaps. Or, for convenience, we provide all the processed STMaps, which you can download [here](https://github.com/keke-nice/rPPG-MAE/blob/main/Data/get_STMap.txt). 
+You may reproduce enhanced noise-insensitive STMaps by following the methodology outlined in the paper. Alternatively, for your convenience, we have made available the processed STMaps for direct download  [here](https://github.com/keke-nice/rPPG-MAE/blob/main/Data/get_STMap.txt). 
 
 ### Dependencies and Installation
 
