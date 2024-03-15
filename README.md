@@ -16,7 +16,9 @@ You can follow the method given in the paper to generate enhanced noise insensit
 
 Environment required for experiment:
 
-
+```sh
+pip install -r requirements.txt
+```
 
 ## Pretrain
 
